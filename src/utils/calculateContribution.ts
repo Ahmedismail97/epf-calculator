@@ -1,7 +1,7 @@
 import partAContributions from './partA_contributions.json';
 import partBContributions from './partB_contributions.json';
 
-interface ContributionResult {
+export interface ContributionResult {
   employerShare: number;
   employeeShare: number;
   sectionType: string;
